@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Linklet Connect – Coming Soon</title>
+  <meta name="description" content="Linklet Connect – Create and share smart digital business cards. Coming soon." />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      color: #1a1a1a;
+      background-color: #ffffff;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    img.hero {
+      width: 100%;
+      max-width: 900px;
+      border-radius: 24px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #3c6c37;
+      margin: 0 0 20px;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #444;
+      margin: 0 auto 30px;
+      max-width: 600px;
+    }
+    .highlight {
+      color: #f29c27;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2.2rem; }
+      p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="linklet connect.png" alt="Linklet Connect app preview" class="hero" />
+    <h1>Linklet Connect</h1>
+    <p>Create and share beautiful digital business cards you can save to <span class="highlight">Google Wallet</span>. <br>Launching soon.</p>
+  </header>
+  <footer>
+    © <span id="year"></span> Linklet Connect. All rights reserved.
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
